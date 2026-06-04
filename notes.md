@@ -7,6 +7,7 @@
 - Momentum: the tendency of assets with strong recent performance to keep rising, and underperforming assets to keep falling
 - Black Scholes: Mathematical model used to estimate the theoretical fair value of an option
     - How to use: 
+- Bid ask spread: difference between the highest price a buyer is willing to pay for an asset and the lowest price a seller is willing to accept
 
 # Replay engine
 

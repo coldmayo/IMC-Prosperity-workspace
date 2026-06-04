@@ -20,9 +20,9 @@ See some more here: https://www.quantconnect.com/learning/articles/investment-st
 
 ## Market Making
 ### Passive Quote Strategy
-- Post bids slightly below and asks slightly above the fair value
-- Capture the spread repeatedly
-- Challenge: managing inventory and avoiding adverse selection
+- Post bids slightly below and asks slightly above the fair value (buying at 100 and then selling at 100.5)
+- Best for envirenments with high volume but low volatility
+    - You want a constant stream of buyers and sellers hitting your quotes so you can turn over your inventory rapidly
 
 ### Skewed Quoting
 - Adjust bid/ask prices based on your current inventory position
