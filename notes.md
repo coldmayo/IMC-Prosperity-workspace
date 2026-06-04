@@ -1,6 +1,17 @@
+# Some simple definitions
+- Volitility: How much (magnitude and rate) an equity fluxuates over time
+- Bollinger bands: Help show volitility over time
+    - Burb from wikipedia: "Some traders buy when price touches the lower Bollinger Band and exit when price touches the moving average in the center of the bands. Other traders buy when price breaks above the upper Bollinger Band or sell when price falls below the lower Bollinger Band. Moreover, the use of Bollinger Bands is not confined to stock traders; options traders, most notably implied volatility traders, often sell options when Bollinger Bands are historically far apart or buy options when the Bollinger Bands are historically close together, in both instances, expecting volatility to revert towards the average historical volatility level for the stock. When the bands lie close together, a period of low volatility is indicated. Conversely, as the bands expand, an increase in price action/market volatility is indicated. When the bands have only a slight slope and track approximately parallel for an extended time, the price will generally be found to oscillate between the bands as though in a channel."
+- VWAP (volume weighted average): measure of the average price at which the security has traded during that period
+- Order book inbalance: measures the disparity between resting buy (bid) and sell (ask) limit orders in an exchange’s order book. When one side of the book holds significantly more volume than the other, it indicates uneven market pressure, suggesting the price will likely move toward the thinner side due to less resistance.
+- Momentum: the tendency of assets with strong recent performance to keep rising, and underperforming assets to keep falling
+- Black Scholes: Mathematical model used to estimate the theoretical fair value of an option
+    - How to use: 
+
 # Replay engine
 
 - Using an augmented version of the Prosperity 4 backtester
+    - Find here: https://github.com/nabayansaha/imc-prosperity-4-backtester
     - Requires trader.py file that has trading strategy
  
 # References
